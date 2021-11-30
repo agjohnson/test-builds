@@ -14,4 +14,4 @@ html_theme = 'sphinx_rtd_theme'
 
 def setup(app):
     import os
-    os.system('colortest')
+    os.system('colortest-16')

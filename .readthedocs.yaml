@@ -6,10 +6,7 @@ build:
     python: "3"
   apt_packages:
     - tree
-
-sphinx:
-  configuration: docs/conf.py
-
-python:
-  install:
-    - requirements: requirements.txt
+  commands:
+    - /bin/sh -c "sleep 1000 &"
+    - sleep 10
+    - ps aufx
